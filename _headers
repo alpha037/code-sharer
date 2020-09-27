@@ -3,7 +3,6 @@
   X-Content-Type-Options: nosniff
   Accept-Encoding: gzip, deflate, br
   X-XSS-Protection: 1; mode=block
-  X-Frame-Options: SAMEORIGIN
   Referrer-Policy: no-referrer
   Cache-Control: max-age=31536000
   Permissions-Policy: geolocation=(), microphone=()

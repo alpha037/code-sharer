@@ -48,11 +48,9 @@ main{
   max-width: 90%;
   min-width: 80%;
   transition: .5s;
-
 }
-
 textarea {
-  font-size: 3.0vh;
+  font-size: 20px;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
@@ -149,50 +147,12 @@ max-width: 60%;
     --block-accent-color: #f2d12e;
     --block-shadow-color: #555;
 }
-button{font-size: 1.7vw;}
+button{font-size: 16px;}
 button:hover::after, button:focus::after {transform: translate(-2px, -3px);}
 button:hover, button:focus {transform: translate(2px, 2px);}
 h1{
 font-family: -apple-system;
 }
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 140px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -75px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
 .center{
   margin: 0 auto;
   display: block;

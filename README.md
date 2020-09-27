@@ -7,6 +7,8 @@
 
 <h2> Using Code Sharer </h2>
 
+I should make it clear that Code Sharer is not done being developed! You can not use it yet. Once it is done, these are the steps you will need to take to use it.
+
 <p>To use Code Sharer, follow these steps:</p>
 <ul>
 <li> Visit the <a href="https://codesharer.netlify.app">site</a>. </li>
